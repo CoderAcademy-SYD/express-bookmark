@@ -1,2 +1,2 @@
-# express-boilerplate
-You will need to add your own .env file with DB_HOST & PORT.
+# express-bookmark
+Use the .env.example to setup your own .env file. This is a requirement for the application.
