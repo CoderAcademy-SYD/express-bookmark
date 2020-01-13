@@ -10,4 +10,6 @@ router.post("/", celebrate({
     }
 }), BookmarkController.create);
 
+router.get("/", BookmarkController.index);
+
 module.exports = router;

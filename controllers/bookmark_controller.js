@@ -4,6 +4,11 @@ async function create(req, res) {
     res.json(req.user.bookmarks);
 }
 
+function index(req, res) {
+    return res.json(req.user.bookmarks);
+}
+
 module.exports = {
-    create
+    create,
+    index
 }
